@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+[data-scroll] {
+	transition: opacity 1s;
+}
+[data-scroll="in"] {
+	opacity: 1;
+}
+[data-scroll="out"] {
+	opacity: 0;
+}
+
+.header {
+	position: relative;
+}
+.sticky-header {
+	height: 200px;
+}
+.sticky-header[data-scroll="in"] {
+    color: red;
+}
+
+.top {
+    height: calc(100vh - 83px);
+    border: 1px solid black;
+}
