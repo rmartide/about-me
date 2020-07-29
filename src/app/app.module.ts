@@ -4,19 +4,21 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { SideNavComponent } from './navigation/side-nav/side-nav.component';
 import { SectionStepperComponent } from './navigation/section-stepper/section-stepper.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatSidenavModule} from '@angular/material/sidenav';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SideNavComponent,
     SectionStepperComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ViewsModule
+    ViewsModule,
+    BrowserAnimationsModule,
+    MatSidenavModule
   ],
   providers: [],
   bootstrap: [AppComponent]
