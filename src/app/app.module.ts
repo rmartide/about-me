@@ -7,11 +7,13 @@ import { AppComponent } from './app.component';
 import { SectionStepperComponent } from './navigation/section-stepper/section-stepper.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatSidenavModule} from '@angular/material/sidenav';
+import { SidenavComponent } from './navigation/sidenav/sidenav.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SectionStepperComponent
+    SectionStepperComponent,
+    SidenavComponent
   ],
   imports: [
     BrowserModule,
