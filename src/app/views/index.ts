@@ -1,2 +1,9 @@
+export { StackComponent } from './stack/stack.component';
+export { SkillsComponent } from './skills/skills.component';
+export { ProjectsComponent } from './projects/projects.component';
+export { HobbiesComponent } from './hobbies/hobbies.component';
+export { CvComponent } from './cv/cv.component';
+export { ContactComponent } from './contact/contact.component';
+export { BiographyComponent } from './biography/biography.component';
 export { ViewsModule } from './views.module';
 export { HomeComponent } from './home/home.component';
