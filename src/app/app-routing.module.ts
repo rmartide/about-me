@@ -7,7 +7,8 @@ import {
   HomeComponent,
   ProjectsComponent,
   SkillsComponent,
-  StackComponent
+  StackComponent,
+  CvComponent
 } from "./views";
 
 const routes: Routes = [
@@ -17,7 +18,8 @@ const routes: Routes = [
 	{ path: "skills", component: SkillsComponent },
 	{ path: "projects", component: ProjectsComponent },
 	{ path: "contact", component: ContactComponent },
-	{ path: "hobbies", component: HobbiesComponent }
+	{ path: "hobbies", component: HobbiesComponent },
+	{ path: "cv", component: CvComponent }
 ];
 
 @NgModule({

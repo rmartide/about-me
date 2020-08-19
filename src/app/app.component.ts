@@ -21,13 +21,13 @@ export class AppComponent {
 
   // This will need to come from i18e
   sections = [
-    { id: 'home', display: 'Home'},
-    { id: 'bio', display: 'Biography'},
-    { id: 'skills', display: 'Skills'},
-    { id: 'stack', display: 'Stack'},
-    { id: 'projects', display: 'Projects'},
-    { id: 'hobbies', display: 'Hobbies'},
-    { id: 'cv', display: 'Curriculum Vitae'},
-    { id: 'contact', display: 'Contact'},
+    { id: 'home', url:'', display: 'Home'},
+    { id: 'bio', url:'biography', display: 'Biography'},
+    { id: 'stack', url:'stack', display: 'Stack'},
+    { id: 'skills', url:'skills', display: 'Skills'},
+    { id: 'projects', url:'projects', display: 'Projects'},
+    { id: 'contact', url:'contact', display: 'Contact'},
+    { id: 'hobbies', url:'hobbies', display: 'Hobbies'},
+    { id: 'cv', url:'cv', display: 'Curriculum Vitae'},
   ]
 }
